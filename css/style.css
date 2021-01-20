@@ -1,0 +1,58 @@
+.sofra{
+    background-image: url('..//imgs/app-bg.png');
+    background-size: 60% 10%;
+}
+.sof{
+    text-align: center;
+    
+    
+    color:white;
+    font-size: 80px;
+    transform: rotateZ(-deg);
+    padding-top: 100px;
+}
+.sof2{
+    text-align: center;
+    color:white;
+    
+}
+.classof{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5% 4%;
+    border-radius: 30px;
+    
+}
+.form-control{
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+.input-group{
+    width: 300px;
+    border-radius: 30px;
+    border:1px solid rgb(184, 177, 177)
+}
+.we{
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+.we:hover{
+    background-color: whitesmoke;
+
+}
+we:active{
+    background-color: whitesmoke;
+
+}
+.fa{
+    color: rgb(175, 20, 20);
+}
+.card-img{
+    width: 80%;
+    margin:20px;
+}
+.card{
+    border-radius: 20px;
+}
