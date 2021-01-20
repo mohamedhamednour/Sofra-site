@@ -76,3 +76,25 @@ we:active{
     border-radius: 30px;
     padding: 2% 8%;
 }
+.h3e{
+    color: white;
+    padding-top: 30px;
+}
+.photo5{
+    width: 300px;
+    float: left;
+    margin-bottom: 20px;
+}
+.btr{
+    padding: 2% 10%;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.fab{
+    margin-right: 60px;
+    font-size: 30px;
+    color: white;
+}
