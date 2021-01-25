@@ -2,6 +2,11 @@
     background-image: url('..//imgs/app-bg.png');
     background-size: 60% 10%;
 }
+.soffra{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 .sof{
     text-align: center;
     
@@ -15,6 +20,10 @@
     text-align: center;
     color:white;
     
+}
+.sof22{
+    text-align: center;
+
 }
 .classof{
     display: block;
@@ -97,4 +106,135 @@ we:active{
     margin-right: 60px;
     font-size: 30px;
     color: white;
+}
+.navbar{
+    width: 250px;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+}
+.navbar-brand:hover{
+
+    border-bottom: 2px solid black;
+    color: white;
+   
+}
+.cards{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dav{
+ float: left;
+ padding: 1% 6%;
+border-radius: 30px;
+background-color: rgb(29, 235, 29);
+
+}
+.dav:hover{
+    background-color:rgb(29, 235, 29);;
+}
+.card-title{
+    color: rgb(236, 26, 156);
+    font-size: 22px;
+}
+.loi{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ss{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.spea{
+  text-align: center;
+}
+.photo9{
+    width: 30%; height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.butt{
+    padding: 1% 6%;
+    margin-left: 6px;
+    border-radius: 30px;
+    background-color: red;
+}
+.buttt{
+    padding: 1% 10%;
+    margin-left: 6px;
+    border-radius: 30px;
+}
+.regster{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border:1px solid rgb(214, 208, 208);
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.regster2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.control4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 80%;
+}
+.regster7{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 7%;
+    border-radius: 30px;
+    background-color: rgb(184, 14, 79);
+    margin-top: 30px;
+}
+.ewq{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.ewqq{
+   margin-top: 60px;
+}
+.rt{
+   text-align: center;
+   margin-left: 200px;
+   margin-top: 20px;
+}
+.photo77{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 58%;
+    margin-top: 30px;
+}
+.dac{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.owl-nav{
+
+    font-size: 2rem;
+    color: red;
+}
+.clod{
+    width: 100%;
 }
