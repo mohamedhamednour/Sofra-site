@@ -238,3 +238,53 @@ background-color: rgb(29, 235, 29);
 .clod{
     width: 100%;
 }
+.form-check-input{
+    margin-right: 10px;
+}
+.form-check-label{
+    
+}
+.regster99{
+    padding: 1.2% 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+   
+    font-size: 22px;
+}
+.rrt:hover{
+    color: black;
+   text-decoration: none;
+}
+.input[type=checkbox], input[type=radio] {
+    width: 60px;
+    background-color: black;
+
+
+}
+.input[type=radio]{
+    -webkit-appearance: none;
+    background-color: red;
+    color: red;
+}
+.data{
+    width: 100px;
+    background-color: rgb(207, 206, 206);
+}
+.decl{
+    font-size: 16px;
+}
+.decl:hover{
+    text-decoration: none;
+    
+}
+.weee{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.saaa{
+    text-decoration: none;
+}

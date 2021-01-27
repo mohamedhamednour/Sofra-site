@@ -79,21 +79,21 @@
 </div>
 
 </div>
-<section style="background: url(imgs/Group\ 1040.png); background-size: 100% 100%;">
+
   <div class="container">
     <div class="row"> 
-      <div class="col-md-6 regster">
+      <div style="background: url(imgs/Rectangle\ 11.png); opacity: 1;display: none; " id="aegster" class="col-md-6 regster">
        <img class="regster2" style="width: 150px;" src="imgs/use-img.png">
       
    <form>
-        <input type="text" class="form-control control4" placeholder="الاسم  ">
-        <input type="email" class="form-control control4" placeholder="البريد الالكتروني "><br>
-          <a href="#"><button class="btn btn-danger regster7">الدخول</button></a> 
-          <div style="text-align: center;">
-         <a class="decl" href="#" style="margin-left: 50px; color:red"><b>مستخدم جديد</b></a>
-         <a class="decl" href="#" style=color:red><b>نسيت كلمة المرور</b></a>
-        </div> 
-         <a href="#"><button class="btn btn-danger regster7">انشاء حساب الان</button></a>
+        <input id="etr" style="position: absolute;top: -260px;" type="text" class="form-control control4" placeholder="الاسم  ">
+        <input type="email" class="form-control control4" placeholder="الاميل ">
+        <input type="number" class="form-control control4" placeholder="الرقم  ">
+        <input type="text" class="form-control control4" placeholder="البلد  ">
+        <input type="text" class="form-control control4" placeholder="المحافظة  ">
+        <input style="height: 150px;border-radius: 6px;" type="text" class="form-control control4" placeholder="العنوان بالتفصيل "><br>
+          <a href="#"><button style="background-color:rgb(12, 12, 41);" class="btn btn-danger regster7">احفظ التعديلات </button></a>  
+       
     <br>
       </form> 
 
@@ -102,12 +102,11 @@
       </div> 
       <br>
     </div>
-  </div>
-</section>
+</div>
 
 
 
-<footer class="comt" style="background: rgb(12, 12, 41);">
+<footer class="comt" style="background: url(imgs/footerbg.png);background-size: 100% 100%;">
   <div class="container">
     <div class="row"> 
         
@@ -139,9 +138,34 @@
    <script src="assets/dist/jquery.min.js"></script>
     <script src="assets/dist/owl.carousel.js"></script>
      <script src="assets/javascript/codejs.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
-
+     <script> 
+      $(document).ready(function(){
+       
+ 
+  $("#aegster").toggle(6000);
+      });
+      </script> 
+       <script> 
+        $(document).ready(function(){
+        
+    $("#etr").animate({
+      
+    top:'100px',
+    left:'30deg'
+      
+    },4000);
+    $("#etr").animate({
+      
+      top:'100px',
+     right:'9%',
+    
+        
+      },7000);
+ 
+        });
+        </script> 
 
 
 
