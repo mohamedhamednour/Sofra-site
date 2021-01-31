@@ -19,6 +19,28 @@
 <!-- font google-->
 
            <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+           
+           <style>
+            /* width */
+            ::-webkit-scrollbar {
+              width: 10px;
+            }
+            
+            /* Track */
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px rgb(47, 233, 23); 
+              border-radius: 4px;
+            }
+             
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+              background: rgb(143, 4, 74); 
+              border-radius: 10px;
+            }
+            
+            /* Handle on hover */
+           
+            </style>
 </head>
 <body  style="font-family: 'Cairo', sans-serif;">
 <!-- This header-->
@@ -29,7 +51,7 @@
             <div class="col-lg-2 col-md-2 col-md-6 col-xs-6">
               <i style="color:red;font-size: 30px;margin-top: 10px;;" class="fas fa-cart-arrow-down"></i>
               <div class="btn-group dropup">
-                <button  style="background: #d9e0e4f1;border-color: #d9e0e4f1;margin-bottom: 10px;" type="button" class="btn btn-secondary " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button  style="background: #d9e0e4f1;border-color: #6090acf1;margin-bottom: 10px;" type="button" class="btn btn-secondary dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i style="font-size: 30px; color:red" class="fas fa-user"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -37,7 +59,7 @@
                   <a class="dropdown-item" href="sofra-offers.html">عروضنا</a>
                   <a class="dropdown-item" href="contact%20us.html">تواصل معنا </a>
                   <a class="dropdown-item" href="myaccount.html">حسابي</a>
-                  <a href="jqery%20test.html">jqiry</a>
+                  <a class="dropdown-item" href="jqery%20test.html">jqiry</a>
                 </div>
               </div>
             </div>
@@ -63,12 +85,12 @@
             </div>
             <div style="text-align: left;margin-top: 10px;" class="col-lg-4 col-md-4  col-xs-12">
               <div class="dropdown">
-                <button style="background: #d9e0e4f1" class="btn btn-light " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button style="background: #d9e0e4f1" class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i style="font-size: 40px;color:rgb(255, 0, 85);" class="fas fa-hamburger"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="sofra-resturnt.html">Minue</a>
+                  <a class="dropdown-item" href="sofra-offers.html">Add offers</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </div>
@@ -87,7 +109,7 @@
 <h1 class="sof">سفرة</h1><br>
 
 <h3 class="sof2">بتشتري بتبيع ؟ كلم ام ربيع</h3><br>
-<button class="btn btn-danger classof">سجل الان </button>
+<a href="regster.html"><button  class="btn btn-danger classof">سجل الان </button></a>
 
 <br>
 <br>
@@ -222,7 +244,7 @@
                   <p class="card-text"><i style="color: red;" class="fas fa-star"></i><i style="color: red;" class="fas fa-star"></i><i style="color: red;" class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                   <p class="card-text">الحد الادني للطلب : 60ريال</p>
                   <p class="card-text">رسوم التوصيل :10ريال</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <p class="card-text"><small class="text-muted"></small></p>
                 </div>
               </div>
             </div>
@@ -307,7 +329,13 @@
      <script src="assets/javascript/codejs.js"></script>
 
 
-
+     <script> 
+      $(document).ready(function(){
+       
+ 
+  $("#aegster").toggle(6000);
+      });
+      </script> 
 
 
 

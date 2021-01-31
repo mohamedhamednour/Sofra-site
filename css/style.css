@@ -288,3 +288,12 @@ background-color: rgb(29, 235, 29);
 .saaa{
     text-decoration: none;
 }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
